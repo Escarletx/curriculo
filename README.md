@@ -15,7 +15,7 @@ A solução foi focada em criar um currículo moderno, limpo e profissional, uti
 - **Tipografia e Cores:** Utilização de variáveis CSS (`:root`) para facilitar a manutenção de cores e garantir consistência visual em todo o projeto.
 
 ## Como visualizar
-O projeto está publicado via GitHub Pages e pode ser acessado em:
+O projeto está publicado via GitHub Pages e pode ser acessado em: https://escarletx.github.io/curriculo/
 
 ---
 Feito com 🍰 e 💻 por Escarlet Imopoco Lima. &copy; 2026
