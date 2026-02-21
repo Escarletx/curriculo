@@ -1,0 +1,78 @@
+:root {
+    --primary-color: #0f172a;
+    --accent-color: #2563eb;
+    --text-color: #334155;
+    --bg-sidebar: #f1f5f9;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background: #e2e8f0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.page {
+    background: var(--white);
+    width: 21cm;
+    min-height: 29.7cm;
+    display: grid;
+    grid-template-columns: 28% 72%;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+aside {
+    background-color: var(--bg-sidebar);
+    padding: 40px 20px;
+    color: var(--primary-color);
+    border-right: 1px solid #e2e8f0;
+}
+
+.profile-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+    margin-top: 30px;
+    border-bottom: 1px solid #cbd5e1;
+    padding-bottom: 5px;
+}
+
+.profile-title:first-child {
+    margin-top: 0;
+}
+
+.info-item {
+    margin-bottom: 12px;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.info-item strong {
+    display: block;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.skill-tag {
+    display: inline-block;
+    background: #e2e8f0;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #334155;
+}
