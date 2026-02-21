@@ -76,3 +76,38 @@ aside {
     font-weight: 600;
     color: #334155;
 }
+
+main {
+    padding: 37px 33px;
+    color: var(--text-color);
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 32px;
+    color: var(--primary-color);
+    line-height: 1.1;
+    margin-bottom: 5px;
+    letter-spacing: -0.5px;
+}
+
+h2 {
+    font-size: 16px;
+    color: var(--accent-color);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.summary {
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #475569;
+    border-left: 3px solid var(--accent-color);
+    padding-left: 15px;
+    text-align: justify;
+}
